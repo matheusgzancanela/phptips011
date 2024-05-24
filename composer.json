@@ -1,0 +1,28 @@
+{
+  "name": "matheusgzancanela/phptips011",
+  "description": "LOGS, ALERTAS E MONITORAMENTO COM MONOLOG | PHP TIPS #011",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matheus G. Zancanela",
+      "email": "matheusgzpessoal@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/matheusgzancanela"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "monolog/monolog": "2.0.*"
+  }
+}
